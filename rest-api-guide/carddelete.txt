@@ -1,0 +1,13 @@
+requestt:
+post http://localhost:8000/v1/cart/delete
+token
+product_id
+
+
+
+
+
+
+
+response:
+{"type":"error","response":"Your token has expired","token":""}

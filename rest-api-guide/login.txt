@@ -1,0 +1,11 @@
+request:
+post http://localhost:8000/v1/auth/login
+
+email
+password
+
+
+
+
+response:
+{"type":"success","response":"login successful","token":"ctjX%Znu!UvGotYAkbQKtbkMreOBQbIOojjIobRO%hzUsjIyeJogMYBgVNDmhSYH"}

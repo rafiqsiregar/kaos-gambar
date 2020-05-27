@@ -1,0 +1,15 @@
+request:
+post http://localhost:8000/v1/product/create
+
+token
+name
+price
+photo
+description
+
+
+
+
+
+response:
+{"type":"error validation","response":"The Token field is required.\nThe Product Name field is required.\nThe Product Price field is required.\nThe Photo field is required.\n","token":""}

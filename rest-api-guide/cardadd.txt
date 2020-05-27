@@ -1,0 +1,14 @@
+request:
+post http://localhost:8000/v1/cart/add/
+
+token
+product_id
+description
+quantity
+
+
+
+
+
+response:
+{"type":"error","response":"Your token has expired","token":""}

@@ -1,0 +1,13 @@
+request:
+post http://localhost:8000/v1/auth/register
+
+username
+email
+password
+confirm_password
+
+
+
+
+response:
+{"type":"account exist","response":"Your account already exists!","token":"PuOHMQLvRrIBEFUXWvnuKTVhhtaBHkqJsC#RUj#vMvkr@T!kHaObjgPvdjzzXvjK"}

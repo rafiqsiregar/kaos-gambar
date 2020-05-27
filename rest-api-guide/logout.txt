@@ -1,0 +1,9 @@
+request:
+post http://localhost:8000/v1/auth/logout
+
+token
+
+
+
+response:
+{"type":"error","response":"Your token has expired","token":""}
